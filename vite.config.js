@@ -3,7 +3,6 @@ import { resolve } from "path";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-  base: "/Proyek-Akhir-Web-Intermediate/",
   root: resolve(__dirname, "src"),
   publicDir: resolve(__dirname, "src", "public"),
   build: {
@@ -25,7 +24,7 @@ export default defineConfig({
       manifest: {
         name: "starter-project-with-vite",
         short_name: "MyApp",
-        start_url: "/Proyek-Akhir-Web-Intermediate/",
+        start_url: "/",
         display: "standalone",
         background_color: "#ffffff",
         theme_color: "#ffffff",
