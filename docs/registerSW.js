@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Proyek-Akhir-Web-Intermediate/sw.js', { scope: '/Proyek-Akhir-Web-Intermediate/' })})}
